@@ -1,4 +1,4 @@
-package edu.ashish.structural;
+package edu.ashish.creational;
 
 import java.io.Serializable;
 
