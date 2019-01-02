@@ -1,4 +1,4 @@
-package edu.ashish.creational;
+package edu.ashish.creational.singleton;
 
 /**
  * The following approach of creating Singleton class is lazy initialized and this takes care of multithreading

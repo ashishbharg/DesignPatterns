@@ -1,4 +1,4 @@
-package edu.ashish.creational;
+package edu.ashish.creational.singleton;
 
 import java.io.Serializable;
 
