@@ -1,7 +1,14 @@
 package edu.ashish.creational.builderexercise;
 
-import java.util.Map;
-
+/**
+ * Design builder pattern such that output should be as below:
+ *
+ * public class Person
+ * {
+ *   public String name;
+ *   public int age;
+ * }
+ */
 public class CodeBuilder
 {
 

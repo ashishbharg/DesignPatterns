@@ -33,13 +33,13 @@ public class Class {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        String lineSeperator = System.lineSeparator();
+        String lineSeparator = System.lineSeparator();
         sb.append("public class " + getClassName());
-        sb.append(lineSeperator);
+        sb.append(lineSeparator);
         sb.append("{");
-        sb.append(lineSeperator);
+        sb.append(lineSeparator);
         for(Field field : this.fields) {
-            sb.append(String.format("  public %s %s;%s", field.getDatatype(), field.getName(), lineSeperator));
+            sb.append(String.format("  public %s %s;%s", field.getDatatype(), field.getName(), lineSeparator));
         }
         sb.append("}");
         return sb.toString();
