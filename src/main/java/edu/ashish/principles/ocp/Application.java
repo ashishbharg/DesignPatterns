@@ -46,5 +46,7 @@ public class Application {
                 new ColorSpecification(Color.RED),
                 new SizeSpecification(Size.MEDIUM))).forEach(product ->
                 System.out.println(product.getName() + " is RED and medium"));
+
+        //TODO Checkout how to incorporate AND and or specifications togather without modifying existing code.
     }
 }
