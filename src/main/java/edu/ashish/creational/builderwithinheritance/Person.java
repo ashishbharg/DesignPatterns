@@ -4,8 +4,6 @@ public class Person {
 
     private String name;
 
-    private String designation;
-
     public String getName() {
         return name;
     }
@@ -14,19 +12,10 @@ public class Person {
         this.name = name;
     }
 
-    public String getDesignation() {
-        return designation;
-    }
-
-    public void setDesignation(String designation) {
-        this.designation = designation;
-    }
-
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
-                ", designation='" + designation + '\'' +
                 '}';
     }
 }

@@ -3,7 +3,7 @@ package edu.ashish.creational.builderwithinheritance;
 public class EmployeeBuilder extends PersonBuilder<EmployeeBuilder> {
 
     public EmployeeBuilder withDesignation(String designation) {
-        person.setDesignation(designation);
+        ((Employee)person).setDesignation(designation);
         return self();
     }
 

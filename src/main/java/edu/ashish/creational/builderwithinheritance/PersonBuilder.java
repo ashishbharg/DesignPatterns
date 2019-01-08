@@ -5,7 +5,7 @@ public class PersonBuilder<SELF extends PersonBuilder<SELF>> {
     protected Person person;
 
     public PersonBuilder() {
-        person = new Person();
+        person = new Employee();
     }
 
     public SELF withName(String name) {
